@@ -105,7 +105,7 @@ function modal(image) {
     const modal = basicLightbox.create(
         `<img
           class="gallery-image"
-          src="${image.preview}"
+          src="${image.original}"
           data-source="${image.original}"
           alt="${image.description}"
         />`,
